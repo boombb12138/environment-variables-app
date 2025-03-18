@@ -75,15 +75,7 @@ const IndexPage = () => {
               <td>
                 <Code>.env.production</Code>
               </td>
-            </tr>
-            <tr>
-              <td>NEXT_PUBLIC_PREVIEW_ENV_VARIABLE</td>
-
-              <td>{process.env.NEXT_PUBLIC_PREVIEW_ENV_VARIABLE}</td>
-              <td>
-                <Code>.env.preview</Code>
-              </td>
-            </tr>
+            </tr> 
           </tbody>
         </table>
         <p>
